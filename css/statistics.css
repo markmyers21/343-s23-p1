@@ -1,0 +1,22 @@
+nav {
+    max-width: 15vw;
+}
+
+main {
+    order: 2;
+    margin: auto;
+    max-width: 82vw;
+  }
+
+  table {
+      color: white;
+      border-collapse: collapse;
+      display: flex;
+      justify-content: center;
+  }
+
+  th, td {
+      border: 1px solid white;
+      padding: 8px;
+      text-align: left;
+  }

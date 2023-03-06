@@ -1,0 +1,32 @@
+nav {
+    max-width: 15vw;
+    height: 25vw;
+}
+
+main {
+    order: 2;
+    margin: auto;
+    max-width: 70vw;
+}
+
+img {
+    width: 40vw;
+    height: 30vw;
+  }
+
+.home-image {
+    display: flex;
+    justify-content: center;
+}
+
+a.schedule-link {
+    color: white;
+}
+
+a.register-link {
+    color: white;
+}
+
+form {
+    color: white;
+}

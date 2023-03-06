@@ -1,0 +1,36 @@
+
+nav {
+    max-width: 15vw;
+}
+
+main {
+    order: 2;
+    margin: auto;
+    max-width: 40vw;
+  }
+
+  img {
+      order: 3;
+      max-width: 35vw;
+      max-height: 75vh;
+      padding-top: 10vh;
+  }
+
+  table {
+      color: white;
+      border-collapse: collapse;
+  }
+
+  th, td {
+      border: 1px solid white;
+      padding: 8px;
+      text-align: left;
+  }
+
+  .win {
+      color: green;
+  }
+
+  .loss {
+      color: red;
+  }

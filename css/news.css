@@ -1,0 +1,21 @@
+nav {
+    max-width: 18vw;
+  }
+
+  main {
+    order: 2;
+    margin: auto;
+    max-width: 80vw;
+  }
+
+  h2 {
+      text-decoration: underline;
+  }
+
+  .news-photo {
+      display: flex;
+      justify-content: center;
+      padding-left: 15vw;
+      height: 50vh;
+      width: 50vw;
+  }

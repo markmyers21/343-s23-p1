@@ -1,0 +1,31 @@
+
+nav {
+    height: 32vh;
+}
+
+main {
+    margin: auto;
+    max-width: 70vw;
+    order: 2;
+}
+
+img {
+    width: 25vw;
+    height: 27vh;
+}
+
+table {
+    color: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+.roster-table {
+    display: flex;
+    justify-content: center;
+}
