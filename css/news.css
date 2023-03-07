@@ -5,7 +5,8 @@ nav {
   main {
     order: 2;
     margin: auto;
-    max-width: 80vw;
+    max-width: 78vw;
+    padding-left: 2.5%;
   }
 
   h2 {
@@ -19,3 +20,17 @@ nav {
       height: 50vh;
       width: 50vw;
   }
+
+  @media screen and (max-width: 750px) {
+    nav {
+        width: 15vw;
+    }
+
+    nav ul {
+        font-size: small;
+    }
+
+    main {
+        width: 60vw;
+    }
+}
