@@ -28,11 +28,11 @@ main {
   }
 
   .win {
-      color: rgb(120, 234, 120);
+      color: lightgreen;
   }
 
   .loss {
-      color: rgb(255, 120, 120);
+      color: lightcoral;
   }
 
   p {
