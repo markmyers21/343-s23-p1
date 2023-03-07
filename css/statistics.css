@@ -20,3 +20,17 @@ main {
       padding: 8px;
       text-align: left;
   }
+
+  @media screen and (max-width: 600px) {
+    nav {
+        width: 10vw;
+    }
+
+    nav ul {
+        font-size: small;
+    }
+
+    main {
+        width: 60vw;
+    }
+}
