@@ -5,8 +5,9 @@ nav {
 
 main {
     margin: auto;
-    max-width: 70vw;
+    max-width: 60vw;
     order: 2;
+    padding-left: 2%;
 }
 
 img {
@@ -28,4 +29,18 @@ th, td {
 .roster-table {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 10vw;
+    }
+
+    nav ul {
+        font-size: small;
+    }
+
+    main {
+        width: 50vw;
+    }
 }
