@@ -28,11 +28,11 @@ main {
   }
 
   .win {
-      color: green;
+      color: light-green;
   }
 
   .loss {
-      color: red;
+      color: light-red;
   }
 
   p {
