@@ -6,14 +6,15 @@ nav {
 main {
     order: 2;
     margin: auto;
-    max-width: 40vw;
+    max-width: 68vw;
+    text-align: center;
   }
 
   img {
-      order: 3;
-      max-width: 35vw;
+      max-width: 50vw;
       max-height: 75vh;
       padding-top: 10vh;
+      vertical-align: center;
   }
 
   table {
@@ -24,7 +25,6 @@ main {
   th, td {
       border: 1px solid white;
       padding: 8px;
-      text-align: left;
   }
 
   .win {
@@ -34,3 +34,67 @@ main {
   .loss {
       color: red;
   }
+
+  p {
+    font-size: large;
+  }
+
+  .tables {
+    padding-left: 17vw;
+  }
+
+  @media screen and (max-width: 1100px) {
+    img {
+        max-width: 47vw;
+        max-height: 64vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        max-width: 44vw;
+        max-height: 60vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    img {
+        max-width: 40vw;
+        max-height: 54vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        max-width: 37vw;
+        max-height: 48vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    img {
+        max-width: 34vw;
+        max-height: 42vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        max-width: 30vw;
+        max-height: 37vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        max-width: 27vw;
+        max-height: 32vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        max-width: 23vw;
+        max-height: 26vh;
+    }
+}
